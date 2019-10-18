@@ -1,0 +1,192 @@
+{
+	"items": [{
+		"Name": "Product 1",
+		"Description": "Product Description 1",
+		"Amount": "1",
+		"Unit": "TRY",
+		"Price": "93.5",
+		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1040.jpg"
+	}, {
+		"Name": "Product 2",
+		"Description": "Product Description 2",
+		"Amount": "3",
+		"Unit": "TRY",
+		"Price": "93.5",
+		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1000.jpg"
+	}, {
+		"Description": "Product Description 3",
+		"Name": "Product 3",
+		"Amount": "1",
+		"Unit": "TRY",
+		"Price": "93.5",
+		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1258.jpg"
+	}, {
+		"Name": "Product 4",
+		"Description": "Product Description 4",
+		"Amount": "2",
+		"Unit": "TRY",
+		"Price": "93.5",
+		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-9999.jpg"
+	}, {
+		"Name": "Product 5",
+		"Description": "Product Description 5",
+		"Amount": "5",
+		"Unit": "TRY",
+		"Price": "93.5",
+		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-6100.jpg"
+	}, {
+		"Name": "Product 6",
+		"Description": "Product Description 6",
+		"Amount": "1",
+		"Unit": "TRY",
+		"Price": "93.5",
+		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-6130.jpg"
+	}, {
+		"Name": "Product 7",
+		"Description": "Product Description 7",
+		"Amount": "1",
+		"Unit": "TRY",
+		"Price": "93.5",
+		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-9997.jpg"
+	}],
+	"employees": [{
+		"name": "Janet Leverling",
+		"city": "Kirkland",
+		"homeAddress": "722 Moss Bay Blvd.",
+		"postalcode": "98033",
+		"img": "img/img2.jpg",
+		"mobile": "(206) 555-3412",
+		"email": "janet.leverling@gmail.com",
+		"position": "Sales Representative",
+		"department": "Sales",
+		"lat": 47.673223,
+		"lng": -122.200289
+	}, {
+		"name": "Andrew Fuller",
+		"city": "Tacoma",
+		"homeAddress": "908 W. Capital Way",
+		"postalcode": "98401",
+		"img": "img/img3.jpg",
+		"mobile": "(206) 555-9482",
+		"email": "andrew.fuller@outlook.com",
+		"position": "Computer Engineer",
+		"department": "IT",
+		"lat": 47.254416,
+		"lng": -122.445165
+	}, {
+		"name": "Michael Suyama",
+		"city": "London",
+		"homeAddress": "Coventry HouseMiner Rd.",
+		"postalcode": "EC2 7JR",
+		"img": "img/img4.jpg",
+		"mobile": "(71) 555-7773",
+		"email": "michael.suyama@hotmail.com",
+		"position": "Software Engineer",
+		"department": "IT",
+		"lat": 51.510256,
+		"lng": -0.133011
+	}, {
+		"name": "Laura Callahan",
+		"city": "Seattle",
+		"homeAddress": "4726 - 11th Ave. N.E.",
+		"postalcode": "98105",
+		"img": "img/img5.jpg",
+		"mobile": "(206) 555-1189",
+		"email": "laura.callahan@yahoo.com",
+		"position": "Inside Sales Coordinator",
+		"department": "Sales",
+		"lat": 47.664164,
+		"lng": -122.316079
+	}],
+	"chart": [{
+		"Department": "R & D",
+		"EmployeeCount": "20"
+	}, {
+		"Department": "Syngenta",
+		"EmployeeCount": "30"
+	}, {
+		"Department": "Volvo",
+		"EmployeeCount": "35"
+	}, {
+		"Department": "NIKE",
+		"EmployeeCount": "60"
+	}, {
+		"Department": "ADIDAS",
+		"EmployeeCount": "70"
+	}],
+	"bar": [{
+		"Year": "2012",
+		"Milk": "20",
+		"Sugar": "5",
+		"Tea": "5"
+	}, {
+		"Year": "2013",
+		"Milk": "30",
+		"Sugar": "10",
+		"Tea": "10"
+	}, {
+		"Year": "2014",
+		"Milk": "35",
+		"Sugar": "15",
+		"Tea": "15"
+	}, {
+		"Year": "2015",
+		"Milk": "60",
+		"Sugar": "20",
+		"Tea": "20"
+	}, {
+		"Year": "2016",
+		"Milk": "70",
+		"Sugar": "40",
+		"Tea": "40"
+	}],
+	"stack": [{
+		"Quarter": "Q1",
+		"MilkCurrYear": "20",
+		"MilkPrevYear": "30",
+		"SugarCurrYear": "40",
+		"SugarPrevYear": "35",
+		"TeaCurrYear": "48",
+		"TeaPrevYear": "20"
+	}, {
+		"Quarter": "Q2",
+		"MilkCurrYear": "30",
+		"MilkPrevYear": "20",
+		"SugarCurrYear": "10",
+		"SugarPrevYear": "20",
+		"TeaCurrYear": "10",
+		"TeaPrevYear": "5"
+	}, {
+		"Quarter": "Q3",
+		"MilkCurrYear": "35",
+		"MilkPrevYear": "20",
+		"SugarCurrYear": "15",
+		"SugarPrevYear": "20",
+		"TeaCurrYear": "15",
+		"TeaPrevYear": "5"
+	}, {
+		"Quarter": "Q4",
+		"MilkCurrYear": "60",
+		"MilkPrevYear": "20",
+		"SugarCurrYear": "20",
+		"SugarPrevYear": "20",
+		"TeaCurrYear": "20",
+		"TeaPrevYear": "5"
+	}, {
+		"Quarter": "Q5",
+		"MilkCurrYear": "80",
+		"MilkPrevYear": "60",
+		"SugarCurrYear": "50",
+		"SugarPrevYear": "20",
+		"TeaCurrYear": "40",
+		"TeaPrevYear": "20"
+	}, {
+		"Quarter": "Q6",
+		"MilkCurrYear": "60",
+		"MilkPrevYear": "80",
+		"SugarCurrYear": "30",
+		"SugarPrevYear": "50",
+		"TeaCurrYear": "20",
+		"TeaPrevYear": "40"
+	}]
+}

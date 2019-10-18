@@ -1,0 +1,16 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:l="sap.ui.layout" controller="com.sapgrid.controller.View"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<l:Grid defaultSpan="L12 M12 S12">
+		<l:content>
+			<VBox>
+				<html:div class="il-isimleri"></html:div>
+				<html:div class="svg-turkiye-haritasi">
+					
+				</html:div>
+				<layoutData>
+					<l:GridData span="L12 M12 S12"/>
+				</layoutData>
+			</VBox>
+		</l:content>
+	</l:Grid>
+</core:FragmentDefinition>
