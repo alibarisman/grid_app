@@ -1,58 +1,70 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"com/sapgrid/util/map",
-	"jquery.sap.global"
-], function(Controller, map, jQuery) {
+	"jquery.sap.global",
+	"sap/m/MessageToast"
+], function (Controller, map, jQuery, MessageToast) {
 	"use strict";
 
 	return Controller.extend("com.sapgrid.controller.View", {
 
 		map: map,
 
-		onInit: function() {
-			// this.svgturkiyeharitasi();
-			debugger;
+		onInit: function () {
+			this.svgturkiyeharitasi();
 		},
 
-		svgturkiyeharitasi: function() {
-			debugger;
+		svgturkiyeharitasi: function (oEvent) {
+			/*eslint-disable sap-no-dom-insertion*/
+			/*eslint-disable sap-no-element-creation*/
 
-			var element = this.getView().byId("__xmlview0--map");
-			var info = this.getView().byId("il-isimleri");
+			var div = document.createElement("div");
+			div.setAttribute("class", "il-isimleri");
+			document.getElementsByTagName('body')[0].appendChild(div);
 
-		
-				// element.addEventListener(
-				// 	"mouseover",
-				// 	function(event) {
-				// 		debugger;
-				// 		if (event.target.tagName === "path" && event.target.parentNode.id !== "guney-kibris") {
-				// 			info.innerHTML = [
-				// 				"<div>",
-				// 				event.target.parentNode.getAttribute("data-iladi"),
-				// 				"</div>"
-				// 			].join("");
-				// 		}
-				// 	}
-				// );
+			var element = this.getView().byId("svg-turkiye-haritasi");
+			var info = document.querySelector('.il-isimleri');
 
-			element.addEventListener(
+			element.attachBrowserEvent(
+				"mouseover",
+				function (event) {
+					if (event.target.tagName === "path" && event.target.parentNode.id !== "guney-kibris") {
+						info.innerHTML = [
+							"<div>",
+							event.target.parentNode.getAttribute("data-iladi"),
+							" - ",
+							event.target.parentNode.getAttribute("data-plakakodu"),
+							"<br>",
+							"Alan Kodu: ",
+							event.target.parentNode.getAttribute("data-alankodu"),
+							"<br>",
+							"Satış Rakamları: 4578",
+							"<br>",
+							"Satış Oranı: %85",
+							"</div>"
+						].join("");
+					}
+				}
+			);
+
+			element.attachBrowserEvent(
 				"mousemove",
-				function(event) {
+				function (event) {
 					info.style.top = event.pageY + 25 + "px";
 					info.style.left = event.pageX + "px";
 				}
 			);
 
-			element.addEventListener(
+			element.attachBrowserEvent(
 				"mouseout",
-				function(event) {
+				function (event) {
 					info.innerHTML = "";
 				}
 			);
 
-			element.addEventListener(
+			element.attachBrowserEvent(
 				"click",
-				function(event) {
+				function (event) {
 					if (event.target.tagName === "path") {
 						var parent = event.target.parentNode;
 						var id = parent.getAttribute("id");
@@ -71,7 +83,7 @@ sap.ui.define([
 			);
 		},
 
-		handleSearch: function(evt) {
+		handleSearch: function (evt) {
 			// create model filter
 			var filters = [];
 			var query = evt.getParameter("query");

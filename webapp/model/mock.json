@@ -4,6 +4,7 @@
 		"Description": "Product Description 1",
 		"Amount": "1",
 		"Unit": "TRY",
+		"Category": "Category A",
 		"Price": "93.5",
 		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1040.jpg"
 	}, {
@@ -11,6 +12,7 @@
 		"Description": "Product Description 2",
 		"Amount": "3",
 		"Unit": "TRY",
+		"Category": "Category B",
 		"Price": "93.5",
 		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1000.jpg"
 	}, {
@@ -18,6 +20,7 @@
 		"Name": "Product 3",
 		"Amount": "1",
 		"Unit": "TRY",
+		"Category": "Category A",
 		"Price": "93.5",
 		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1258.jpg"
 	}, {
@@ -25,6 +28,7 @@
 		"Description": "Product Description 4",
 		"Amount": "2",
 		"Unit": "TRY",
+		"Category": "Category C",
 		"Price": "93.5",
 		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-9999.jpg"
 	}, {
@@ -32,6 +36,7 @@
 		"Description": "Product Description 5",
 		"Amount": "5",
 		"Unit": "TRY",
+		"Category": "Category C",
 		"Price": "93.5",
 		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-6100.jpg"
 	}, {
@@ -39,6 +44,7 @@
 		"Description": "Product Description 6",
 		"Amount": "1",
 		"Unit": "TRY",
+		"Category": "Category A",
 		"Price": "93.5",
 		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-6130.jpg"
 	}, {
@@ -46,6 +52,7 @@
 		"Description": "Product Description 7",
 		"Amount": "1",
 		"Unit": "TRY",
+		"Category": "Category B",
 		"Price": "93.5",
 		"image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-9997.jpg"
 	}],
